@@ -2,7 +2,7 @@
 #Softether auto install script
 #Debian and Ubuntu
 #Created June 10, 2018
-#Latest Softether Server Version for June 2018
+#Latest Softether Server Version for May 2018 v4.27-9667-beta-2018.05.26-tree
 #Coded by Cybeat
 #Open Source Project From https://www.softether.org/
 #From university of Tsukuba, Japan
@@ -30,7 +30,7 @@ chmod 600 *
 chmod 700 vpncmd
 chmod 700 vpnserver
 #Installing server command
-wget https://raw.githubusercontent.com/jaysonvelagio/SoftetherAutoInstallMultiPlatform/master/Debian%20and%20Ubuntu/vpn-server.sh --no-check-certificate
+wget https://raw.githubusercontent.com/Cybeat110814/Cybeat/master/vpn-server.sh --no-check-certificate
 mv vpn-server.sh /etc/init.d/vpnserver
 cd /etc/init.d/
 chmod 755 vpnserver
