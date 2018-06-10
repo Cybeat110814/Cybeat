@@ -1,0 +1,2 @@
+# Cybeat
+SoftEther Auto Script
